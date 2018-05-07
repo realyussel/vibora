@@ -18,11 +18,11 @@ Incluye entre otras utilidades GCC (un conjunto de compiladores creados por el p
 
 * Instalar ncurses
 
-<img src="https://www.dropbox.com/s/88xi2y8yjnpgjua/ncurse.PNG?dl=1">
+<img src="https://www.dropbox.com/s/88xi2y8yjnpgjua/ncurse.PNG?raw=1">
 
 * Instalar make
 
-<img src="https://www.dropbox.com/s/j7rt6aemzauy52i/make.PNG?dl=1">
+<img src="https://www.dropbox.com/s/j7rt6aemzauy52i/make.PNG?raw=1">
 
 3. Crear carpeta 'proyectos'
 
