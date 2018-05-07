@@ -16,7 +16,13 @@ Cygwin es un entorno tipo Unix y una interfaz de línea de comandos para Microso
 
 Incluye entre otras utilidades GCC (un conjunto de compiladores creados por el proyecto GNU.)
 
-> __Instalar ncurses*__
+* Instalar ncurses
+
+!()[https://www.dropbox.com/s/88xi2y8yjnpgjua/ncurse.PNG?dl=1]
+
+* Instalar make
+
+!()[https://www.dropbox.com/s/j7rt6aemzauy52i/make.PNG?dl=1]
 
 3. Crear carpeta 'proyectos'
 
