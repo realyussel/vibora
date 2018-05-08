@@ -10,11 +10,15 @@ https://git-scm.com/download/win
 
 2. Instala Cygwin
 
-https://www.cygwin.com/setup-x86_64.exe
-
 Cygwin es un entorno tipo Unix y una interfaz de línea de comandos para Microsoft Windows.
 
 Incluye entre otras utilidades GCC (un conjunto de compiladores creados por el proyecto GNU.)
+
+https://www.cygwin.com/setup-x86_64.exe
+
+Si tu Windows es de 32 bits, usa el siguiente enlace:
+
+https://www.cygwin.com/setup-x86.exe
 
 * Instalar ncurses
 
@@ -24,12 +28,18 @@ Incluye entre otras utilidades GCC (un conjunto de compiladores creados por el p
 
 <img src="https://www.dropbox.com/s/j7rt6aemzauy52i/make.PNG?raw=1">
 
-3. Crear carpeta 'proyectos'
+3. Abrir Cygwin64 Terminal
+
+Y navega hasta la carpeta de USUARIO
+
+> USUARIO es nombre se usuario de la PC.
 
 ```
-cd /cygdrive/c/Users/USUARIO
-mkdir proyectos
-cd proyectos
+cd /
+cd cygdrive
+cd c
+cd Users
+cd USUARIO
 ```
 
 4. Clonar proyecto 'vibora'
@@ -38,10 +48,26 @@ cd proyectos
 git clone https://github.com/realyussel/vibora.git
 ```
 
-5. Compilar y ejecutar
+5. Compilar y Ejecutar
 
 ```
-cd /vibora
-gcc vibora.c -o vibora -lncurses
-./vibora.exe
+cd vibora
+make run
 ```
+
+# Ejemplos de NCURSE
+
+En el directorio ncurse encontraras programas de ejemplo usando la librería ncurse.h.
+
+```
+cd vibora/ncurse
+ls
+```
+
+Puedes ejecutar respectivamente cada programa de la siguiente forma:
+
+```
+make target=hello
+```
+
+Donde 'hello' es el nombre del archivo .c del programa
