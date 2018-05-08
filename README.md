@@ -4,11 +4,11 @@ Juego clásico de la víbora programado en lenguaje c, usando librería ncurse.h
 
 # Instalación
 
-1. Instalar Git
+1. Instalar __Git__
 
 https://git-scm.com/download/win
 
-2. Instala Cygwin
+2. Instalar __Cygwin__
 
 Cygwin es un entorno tipo Unix y una interfaz de línea de comandos para Microsoft Windows.
 
@@ -20,19 +20,19 @@ Si tu Windows es de 32 bits, usa el siguiente enlace:
 
 https://www.cygwin.com/setup-x86.exe
 
-* Instalar ncurses
+* Instalar __ncurses__
 
 <img src="https://www.dropbox.com/s/88xi2y8yjnpgjua/ncurse.PNG?raw=1">
 
-* Instalar make
+* Instalar __make__
 
 <img src="https://www.dropbox.com/s/j7rt6aemzauy52i/make.PNG?raw=1">
 
-3. Abrir Cygwin64 Terminal
+3. Abrir el programa __Cygwin64 Terminal__
 
 Y navega hasta la carpeta de USUARIO
 
-> USUARIO es nombre se usuario de la PC.
+> USUARIO es el nombre de usuario actual en la computadora.
 
 ```
 cd /
@@ -57,17 +57,17 @@ make run
 
 # Ejemplos de NCURSE
 
-En el directorio ncurse encontraras programas de ejemplo usando la librería ncurse.h.
+En el directorio /ncurse encontraras programas de ejemplo con la librería ncurse.h.
 
 ```
 cd vibora/ncurse
 ls
 ```
 
-Puedes ejecutar respectivamente cada programa de la siguiente forma:
+Puedes compilar y ejecutar respectivamente __cada programa__:
 
 ```
 make target=hello
 ```
 
-Donde 'hello' es el nombre del archivo .c del programa
+Donde ´hello´ es el nombre del "archivo .c" de un programa.
